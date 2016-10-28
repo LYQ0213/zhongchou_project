@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;}
+body{font-size:14px; font-family:microsoft yahei;}
+ul,li{ list-style:none;}
+img{ border:none;}
+.clear{clear:both;}
+.floatl{float:left;}
+.floatr{float:right;}
+.block{display:block;}
+.font12{font-size:12px;}
+a{color:#000; text-decoration:none;}
+a:hover{ text-decoration:none; color:#016e81; }
+/*header*/
+.top-bg{ background:#e4e4e4;border-bottom:1px solid #ccc;height:35px; color:#999;width:100%;}
+.top-bg-text{width:1000px;margin:0 auto;font-size:14px;line-height:35px;}
+.top-bg-text span{float:left;}
+.top-bg-text a{ color:#999;}
+.top-bg-text a:hover{color:#00a8e2;}
+header{margin-bottom:5px; width:100%; }
+.header-content{width:1000px;margin:0 auto;}
+.logo{ background: url(../images/logo2.jpg) no-repeat;width: 237px;height:86px; float:left; display:inline-block;}
+nav{font-size:16px;font-weight:bold; float:right; width:600px;margin-top:30px;}
+nav ul li{ float:left; margin-right:25px;}
+nav ul li:hover{color:#008bac;}
+.gif1,.gif2{ background:url(../images/icon.png) no-repeat;width:25px;height:30px; display:inline-block;}
+.gif1{ background-position:left top;}
+.gif1:hover{ background-position:left -30px;}
+.gif2{ background-position:left -60px;margin-left:10px;}
+.gif2:hover{background-position:left -90px;}
+/*下拉菜单*/
+ .submenu{
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    .submenu  a {
+        display: inline-block;
+        cursor: pointer;
+								width:100px;      
+        position: relative;
+        text-align: center;
+       border-bottom:3px solid #67ad0b;
+						height:30px;
+						
+    }
+				.submenu a:hover{background:#67ad0b;	color:white;	height:30px;line-height:30px;}
+    .submenu a span {
+        display: block;
+       margin:0 auto;
+    }
+    .submenu  a.down span {
+        position: absolute;
+        left: 18px
+    }
+    .submenu  a.down ul {
+        background: #dbffc8;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 31px;
+        left: 0;
+        display: none;
+    }
+    .submenu  a.down:hover ul {
+        display: block;
+								font-size:14px;
+								font-weight:normal;
+    }
+				.submenu ul li{flaot:left;width:80px; line-height:35px; color:black;}
+
+/*footer*/
+.partner{ background:#f2f5f5;width:100%; padding-top:15px;}
+.links{width:1000px;margin:0 auto;}
+.links img{margin-right:10px;}
+footer{width:100%}
+.footer-text{background:#333;font-size:14px;color:white; height:60px;text-align:center;padding-top:20px;}

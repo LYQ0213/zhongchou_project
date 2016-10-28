@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import "reset.css";
+/*banner*/
+.banner{
+	width: 100%;
+	height: 455px;
+	background: url(../images/index/banner1.jpg) no-repeat center;
+}
+.pre,.next{width:70px;height:90px;position:relative;z-index:10000;top:40%;
+filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;/*其他，透明度50%*/ }
+.pre{ background:url(../images/index/arrowl.png) no-repeat;float:left;left:10%;}
+.next{ background:url(../images/index/arrowr.png) no-repeat;float:right;right:10%;}
+.pre:hover,.next:hover{ cursor:pointer;
+filter:alpha(opacity=100); /*IE滤镜，透明度50%*/
+-moz-opacity:1; /*Firefox私有，透明度50%*/
+opacity:1;/*其他，透明度50%*/}
+
+/*data*/
+.data-bg{width: 100%;height:80px;;background:#f3f4f6;text-align: center;}
+.data-bg p {display:inline-block;margin-top: 20px;font-size:14px;padding:0px 150px;text-align: left;font-weight:bold;}
+.green{color:#9ddc2b;font-size:30px;font-family: 微软雅黑;}
+.black{font-size:14px;color:#a3a3a3;}
+
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wrap .header{
+	text-align: center;
+}
+.wrap .header a{
+	font-size: 30px;
+}
+/*筹资进行中*/
+.sy_btop{margin:20px auto 10px; text-align:center; padding-top:10px;}
+.sy_btop h2{font-family: 微软雅黑;}
+.sy_btop h3 span{width:100px;display:inline-block;line-height:40px;font-weight:normal;}
+.sy_btop h3 span a{color:#000;text-decoration:none;}
+.sy_btop h3 span a:hover{text-decoration:underline; color:#00af43;}
+
+.item{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.one_a_img input,.zhezhao input{
+	height: 30px;
+	width: 100px;
+	font-size: 15px;
+	border-radius: 20px;
+	background-color: #FE7A7A;
+	color: white;
+	border:none;
+ margin:10px;
+}
+.one_a_img input{float:right;}
+.one_a_img input:hover,.zhezhao input:hover{ background:#f36279;cursor:pointer;}
+.one_a,.one_b,.one_c{
+	float: left;
+	width: 380px;
+	border:2px solid lightgray;
+	margin:6px;
+}
+.invest-text{padding:10px 15px; line-height:30px;}
+.more{
+	width: 100%;
+	height: 40px;
+	background:#ECF0F1;
+	float: left;
+	text-align:center;
+	font-size:20px;
+	line-height:40px;
+	margin:10px auto;
+}
+.more2{float:right;margin-right:15px;}
+
+.news{
+	width: 520px;
+	height: 320px;
+	background-color: #ECF0F1;
+	float: left;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+.news h3,.info h3{padding-left:15px; border-bottom:3px solid #7baed4; width:90%;margin:0 auto;padding-bottom:5px;}
+.news ul{
+	margin: 5px 10px;
+}
+.news ul li{
+	margin: 15px 30px;
+	background: url(../images/index/list.png) no-repeat;
+list-style-position:outside;
+text-indent:20px;
+}
+.news ul li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.info{
+	width: 650px;
+	height: 320px;
+	float: right;
+	background:#ECF0F1;
+	margin:10px 0px 0px 20px;
+	padding:10px 0px 0px 5px;
+}
+.info h3{
+	padding-left:25px;
+	margin-bottom:10px;
+}
+.info img{
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	border: solid white 2px;
+}
+.info p{
+	letter-spacing: 4px;
+	font-size: 16px;
+}
+.investment{
+	width:100%;
+background:#d1eefe;
+}
+.youji_a{
+	width: 1200px;
+	height: 255px;
+	background-color: #ECF0F1;
+	margin-bottom: 20px;
+}
+.youji_a img{
+	width: 415px;
+	height: 255px;
+	float: left;
+}
+.youji_a .man{
+	width: 770px;
+	height: 5px;
+}
+.icon img{
+	width: 545px;
+	height: 15px;
+}
+.youji_a .text{
+	width: 700px;
+	height: 120px;
+	float: left;
+	margin:30px;
+	line-height:30px;
+}
+
+/*已筹资*/
+.invest-item{width:1200px;margin:0 auto;}
+.invest-item .selected{color:green; font-weight:bold;}
+/*进度条*/
+.progress-bar{width:95%;
+height:5px;margin:5px;
+background:#4bbddf;position:relative;}
+.progress-bar-success{width:70%; height:5px; background:#fe797a; position:absolute;z-index:1000;}
+.progress-text{color:#4bbddf;font-weight:bold; float:right;margin-right:15px;}
+/*遮罩层*/
+.zhezhao{width:1200px;margin:10px 6px;overflow:hidden;}
+.zhezhao ul{width:1200px;}
+.zhezhao ul li{float:left;margin-right:6px;margin-bottom:10px;display:inline;width:290px;height:280px;overflow:hidden;position:relative;}
+.zhezhao ul li .photo{width:290px;height:280px;overflow:hidden;}
+.zhezhao .rsp{width:290px;height:280px;overflow:hidden;position: absolute;background:#000;top:0px;left:0px;}
+.zhezhao .text{position:absolute;width:290px;height:280px;left:-300px;top:0px;overflow:hidden;}
+.zhezhao .text dl{ width:80%;margin:0 auto; color:white; padding:20px;line-height:40px;font-size:16px;font-weight:bold;}
+.zhezhao .text dl dd,.zhezhao .text dl dt{float:left;}
+.zhezhao .text dl dt{width:100px;}
+.zhezhao .text dl dd{width:130px; color:orange;}

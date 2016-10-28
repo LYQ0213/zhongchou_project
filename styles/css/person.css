@@ -1,0 +1,251 @@
+@charset "utf-8";
+@import "reset.css";
+.search{
+	width: 490px;
+	height: 45px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 12px;
+}
+.search select{
+	width: 75px;
+	height: 45px;
+	font-size: 14px;
+	float: left;
+	border: none;
+	border-bottom: 1px #000 solid;
+	border-top: 1px #000 solid;
+	border-left: 1px #000 solid;
+}
+.searchtxt{
+	width: 335px;
+	height: 45px;
+	float: left;
+	border: none;
+	border-bottom: 1px #000 solid;
+	border-top: 1px #000 solid;
+}
+.btn1{
+	width: 80px;
+	height: 45px;
+	background: url(../images/person/search.png) no-repeat center;
+}
+.main {
+	width: 1200px;
+	margin: 0 auto;
+}
+.left {
+	width: 260px;
+	background: #f2f2f2;
+	float: left;
+	padding-bottom:20px;
+}
+.right {
+	width: 890px;
+	float: right;
+}
+/*左侧信息栏结束*/
+
+.user_pic {
+	width: 225px;
+	height: 135px;
+	background: #fff;
+	margin: 35px auto 17px;
+	font-size: 14px;
+}
+.user_pic img {
+	margin-left: 8px;
+	margin-top: 14px;
+	float: left;
+	margin-bottom: 8px;
+}
+.user_pic span {
+	float: left;
+	margin-left: 5px;
+	margin-top: 35px;
+}
+.user_pic a {
+	margin-left: 28px;
+	color: #000000;
+}
+.user_pic a:hover {
+	color: #9DDC2A;
+	text-decoration: underline;
+}
+.user_cen {
+	width: 258px;
+	height: 46px;
+	line-height: 46px;
+	background: #d1eefe;
+	border: 1px #e6e6e6 solid;
+	text-align: center;
+}
+.user_cen h5 {
+	font-size: 24px;
+	color: #0b6a9f;
+}
+
+.info h5 {
+	font-size: 20px;
+	margin-left: 28px;
+	margin-top: 22px;
+	margin-bottom: 16px;
+}
+.info_list {
+	width: 225px;
+	background-color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.info_list li {
+	height: 40px;
+	line-height: 40px;
+	padding-left:50px;
+	float:left;
+width:150px;
+}
+.info_list li img {
+	vertical-align: top;
+	margin-left: 40px;
+	margin-top: 4px;
+}
+.info_list li span {
+	font-size: 18px;
+}
+.info_list li a {
+	color: #000000;
+}
+.info_list li a:hover {
+	color: #9DDC2A;
+	text-decoration: underline;
+}
+/*右侧信息栏结束*/
+.kind {
+	width: 890px;
+	border: 1px solid #e6e6e6;
+
+}
+.kind a {
+	color: black;
+}
+.kind a:hover {
+	color: #9DDC2A;
+	text-decoration: underline;
+}
+.kind dl dt,
+.kind dl dd {
+	float: left;
+	margin-bottom: 16px;
+}
+.kind dl dt {
+	margin-left: 28px;
+	margin-top: 18px;
+}
+.kind dl dd {
+	margin-top: 14px;
+	width: 80%;
+	line-height: 30px;
+}
+.kind dl dd span {
+	margin-left: 40px;
+	display: inline-block;
+}
+.selected{	width:50px;height:25px;line-height:25px;
+	text-align:center;
+	background:#00953b; color:white;border-radius:5px; display:block;}
+.cut {
+	border-bottom: 3px dotted #dcdcdc;
+	width: 93%;
+	margin: 0 auto;
+}
+.kind_f {
+	position: absolute;
+	right: 60px;
+	top: 24px;
+}
+.cash {
+	height: 48px;
+	width: 890px;
+	background-color: #f2f2f2;
+	margin: 16px 0;
+	line-height: 48px;
+}
+.cash1 {
+	float: left;
+	width: 42%;
+}
+.cash2 {
+	float: left;
+	width: 50%;
+}
+.cash1 span {
+	margin-left: 82px;
+}
+.cash2 span {
+	margin-left: 128px;
+}
+.detail {
+	width: 890px;
+	height: 136px;
+	background: #f2f2f2;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.detail:hover{ background:#ebf4e0;}
+.detail1 {
+	float: left;
+	width: 44%;
+	margin-left: 24px;
+}
+.detail2 {
+	float: left;
+	width: 50%;
+	height: 136px;
+	line-height: 136px;
+}
+.deta_top {
+	margin-top: 18px;
+}
+.deta_pic {
+	margin-top: 10px;
+}
+.deta_pic img {
+	float: left;
+	margin-right: 14px;
+}
+.deta_pic p {
+	font-size: 12px;
+	line-height: 20px;
+}
+.detail2 span {
+	margin-left: 120px;
+}
+.more {
+	width: 890px;
+	height: 38px;
+	line-height: 38px;
+	background: #f2f2f2;
+	text-align: center;
+}
+.more a {
+	color: #000000;
+}
+.more a:hover {
+	color: #9DDC2A;
+}
+/*main结束*/
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10,.icon11{width:25px;height:30px;display:inline-block;float:left; background:url(../images/person/icon_person.png) no-repeat; margin-right:5px;margin-top:5px;}
+.icon1{ background-position:left top;}
+.icon2{ background-position:left -30px;}
+.icon3{background-position:left -60px;}
+.icon4{background-position:left -90px;}
+.icon5{background-position:left -120px;}
+.icon6{background-position:left -150px;}
+.icon7{background-position:left -180px;}
+.icon8{background-position:left -210px;}
+.icon9{background-position:left -240px;}
+.icon10{background-position:left -270px;}
+.icon11{background-position:left -300px;}
